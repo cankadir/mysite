@@ -1,1 +1,68 @@
-# Empty CSS file for your own CSS
+
+:root {
+    --acolor: #f08080;
+  }
+  
+.text-primary{
+    color: var(--acolor);
+}
+
+h3{
+    color: var(--acolor);  
+}
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+a:link, a:visited,a:hover, a:active {
+    color: var(--acolor);
+  }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+p .lead{
+    font-size: 18px;
+
+}
+
+.container{
+    margin-top:100px;
+    justify-content:center;
+    width: 1000px;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--acolor); /* Change the color */
+    font-weight: bolder;
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1.5em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+#card{
+    height:300px;
+    width: 310px;
+    justify-content:center;
+}
+
+#inner{
+    justify-content:center;   
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+.center {
+    margin: auto;
+    width: 90%;
+    margin-top: 40%;
+}
