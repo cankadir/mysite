@@ -109,3 +109,32 @@ footer{
     margin-right: auto;
     justify-content:center;   
 }
+
+#images{
+    width: 100%;
+    object-fit: contain;
+}
+
+#image-cont{
+    justify-content:center;   
+    text-align: center;
+}
+
+figcaption{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#small-list{
+    font-size:20px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #f08080;
+    background: #fbdbdb;
+  }
+  
+  ::selection {
+    color: #f08080;
+    background: #fbdbdb;
+  }
